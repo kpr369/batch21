@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="100">
+    <test name="C:/Users/Admin/IdeaProjects/Batch21/src/test/java/TestNGOrder.java">
+
+        <classes>
+            <class name="ParallelExecution"></class>
+            <class name="TestNGOrder"></class>
+        </classes>
+    </test>
+</suite>
