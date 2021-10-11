@@ -9,7 +9,7 @@ public class AssertonsDemo {
     {
         SoftAssert sa = new SoftAssert();
         String expected ="google";
-        String actual = "google";
+        String actual = "goo0gle";
 
         sa.assertTrue(true,"asfasdfsd");
         sa.assertEquals(actual,expected,"Testfailed with issue");
